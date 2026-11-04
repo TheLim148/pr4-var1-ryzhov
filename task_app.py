@@ -8,8 +8,8 @@ Task = dict[str, Any]
 
 
 def create_task(title: str) -> Task:
-    # if not isinstance(title, str) or not title.strip():
-    #     raise ValueError("Название задачи не может быть пустым.")
+    if not isinstance(title, str) or not title.strip():
+        raise ValueError("Название задачи не может быть пустым.")
 
     return {
         "title": title.strip(),

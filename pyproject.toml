@@ -1,0 +1,8 @@
+[project]
+name = "pr4-var1"
+version = "0.1.0"
+description = "Task Manager for CI/CD practice"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+

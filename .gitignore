@@ -1,0 +1,11 @@
+# Local application data
+tasks.json
+
+# Generated files
+dist/
+deploy/
+deployment.txt
+
+# Python cache
+__pycache__/
+*.py[cod]

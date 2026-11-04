@@ -45,4 +45,4 @@ uv run python task_app.py add "Новая задача" --file tasks.json
 ```bash
 uv run python -m unittest discover -s tests -v
 ```
-
+Pull Request pipeline verification.
